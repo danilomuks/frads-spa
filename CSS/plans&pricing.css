@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+    
+a {
+    text-decoration: none;
+    
+}
+    
+nav {
+    display:flex;
+    width: 84%;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 20px 0px;
+    color:indigo;
+}
+    
+nav a {
+    display: inline-block;
+    margin: 10px 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color:cornflowerblue;
+}
+
+.nav-bar a {
+    color:powderblue;
+    font-weight: bold;
+}
+
+.nav-bar img {
+    clip-path: circle();
+}
+
+img {
+    clip-path:ellipse();
+}
+article {
+    padding:15px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color:seashell;
+    display: inline-block;
+    margin: 35px 0;
+    border-radius: 5px;
+    text-align:start;
+}
+
+body {
+    background-image: url(../IMAGES/tecno.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+p {
+    color: seashell;
+    font-weight: bold;
+}
+
+.socialmedia {
+    text-align: center;
+}
+
+.socialmedia a {
+    padding: 20px;
+    font-weight: bold;
+    color: dodgerblue;
+}

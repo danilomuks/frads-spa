@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+nav {
+    display:flex;
+    width: 84%;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 20px 0px;
+    color:indigo;
+}
+
+nav a {
+    display: inline-block;
+    margin: 10px 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color:slateblue;
+}
+
+.nav-bar a {
+    color:saddlebrown;
+    font-weight: bold;
+}
+
+ body {
+    background-image:url(../IMAGES/therapy.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+img {
+    clip-path: circle();
+}
+
+article {
+    text-align: center;
+    font-weight: bold;
+}
+
+p {
+    font-weight: bold;
+}
+.socialmedia {
+    text-align: center;
+}
+
+.socialmedia a {
+    padding: 20px;
+    color:gold;
+}
